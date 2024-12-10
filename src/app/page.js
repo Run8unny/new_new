@@ -1,8 +1,8 @@
 export default function Home() {
 	return (
-		<>
-			<h1 className='text-[35rem]'>hello</h1>
-			<p className='text-[1rem]'>hello</p>
-		</>
+		<div className='w-full h-full felx flex-col justify-center items-center'>
+			<h1 className='text-4xl'>hello</h1>
+			<p className='xs'>hello</p>
+		</div>
 	);
 }
