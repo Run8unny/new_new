@@ -56,8 +56,6 @@ const cooper = localFont({
 });
 
 export default function RootLayout({ children }) {
-	console.log(cooper);
-	console.log(cotham);
 	return (
 		<html lang='en'>
 			<body className={`antialiased`}>{children}</body>
